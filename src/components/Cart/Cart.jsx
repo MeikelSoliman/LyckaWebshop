@@ -142,7 +142,7 @@ const Cart = ({cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart, onAddSustai
                 subtotal: cart.subtotal.raw,
                 products: products
             };
-             COMMENT IN FOR DATA PUSH TO SERVERS
+       //      COMMENT IN FOR DATA PUSH TO SERVERS
           *  axios.post("https://eu-central-1.aws.data.mongodb-api.com/app/application-0-vxthq/endpoint/postData",
                 jsonObj).then(res => {
                 console.log(res);
